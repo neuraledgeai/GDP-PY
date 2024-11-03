@@ -45,7 +45,7 @@ class PresentationComponents:
       
     st.plotly_chart(fig)
     st.write(f"The Bar Chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
-    st.markdown(''':blue-background[Highlight] : India is expected to touch 5 trillion in GDP at current prices by 2029-2030.''')
+    st.markdown(''':blue-background[Highlight] : India is expected to touch $5 trillion in GDP at current prices by 2029-2030.''')
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
     The model is trained on data only up to 2023, so predictions may vary due to future uncertainties. Please verify important information independently.
@@ -83,7 +83,7 @@ class PresentationComponents:
       
     st.plotly_chart(fig)
     st.write(f"The Line Chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each point represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
-    st.markdown(''':blue-background[Highlight] : India is expected to touch 5 trillion in GDP at current prices by 2029-2030.''')
+    st.markdown(''':blue-background[Highlight] : India is expected to touch $5 trillion in GDP at current prices by 2029-2030.''')
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
     The model is trained on data only up to 2023, so predictions may vary due to future uncertainties. Please verify important information independently.
