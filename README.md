@@ -9,3 +9,8 @@ GDP-PY is an advanced tool that analyzes India's economic potential, particularl
 - **Interactive and Adjustable Visualizations**: Beautifully crafted visualizations make it easy to interpret the data. Users can adjust parameters to customize forecasts, view trendlines, and interact with graphs for enhanced clarity and insight.
 - **Downloadable Forecast Data**: Easily download the forecasted data directly from the web app for further exploration, analysis, and innovation. This feature supports users in leveraging GDP forecasts for their own projects, research, or business strategies.
 - **Model Performance Insights**: Visual representations of model performance give users a transparent view of how accurately the tool predicts GDP, allowing them to assess the reliability of the projections and understand potential limitations.
+
+# Emperical Research
+
+>[!TIP]
+>For a deeper dive into the data description, emperical results and methods used in this project, please check out the [`Income_MentalHealth_Analysis.ipynb`](https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb) notebook. Whether you're interested in the technical details or the insights derived from the analysis, the notebook provides a comprehensive overview of the entire project.
