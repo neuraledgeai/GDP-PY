@@ -21,7 +21,7 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](htt
 
 # Author
 
-GDP-PY was developed by Anoop Kumar U, an economic graduate with expertise in data science and machine learning. To provide feedback or suggestions or for more information, connect on [LinkedIn](https://www.linkedin.com/in/anoop-kumar-u-695031231/) or email: anoop_kumar_u@icloud.com
+GDP-PY was developed by Anoop Kumar U, an economic graduate with expertise in data science and machine learning. To provide feedback or suggestions or for more information, connect on [LinkedIn](https://www.linkedin.com/in/anoop-kumar-u-695031231/) or email: anoop_kumar_u@icloud.com.
 
 # Acknowledgement
 
