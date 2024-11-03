@@ -4,7 +4,7 @@ from business import Model
 from display import PresentationComponents
 
 st.set_page_config(
-    page_title="India GDP Forecasting Tool",
+    page_title="GDP-PY",
     layout="wide",
 )
 
