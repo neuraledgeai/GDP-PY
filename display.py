@@ -11,6 +11,59 @@ class PresentationComponents:
   ):
     self.model = model
 
+  def forecast_primary_chart(self, years):
+    predicted_gdps =  self.model.makeForecast(years = range(1, years))
+    actual_gdps = self.model.get_fitted_values()
+    
+    # Reset the index to make 'Year' a column
+    actual_gdps = actual_gdps.reset_index()
+    
+    # Add a column to indicate whether the data is actual or predicted
+    actual_gdps["Type"] = "Actual GDP"
+    predicted_gdps["Type"] = "Predicted GDP"
+    
+    # Combine the DataFrames
+    combined_df = pd.concat([actual_gdps, predicted_gdps])
+    
+    # Plot the chart
+    fig = px.line(
+      combined_df, 
+      x="Year", 
+      y="GDP", 
+      color="Type", 
+      title=" Path to a $5 Trillion Economy",
+      #line_dash="Type"  # This will make the 'Predicted GDP' line dotted
+    )
+    fig.update_traces(
+        line=dict(width=3),  # Thicker line
+        selector=dict(name="Actual GDP")  # Ensure Actual GDP is distinguished
+    )
+    fig.update_traces(
+        line=dict(width=2, dash="dash"),  # Thinner, dashed line for prediction
+        selector=dict(name="Predicted GDP")
+    )
+    fig.update_traces(
+        line_color="blue",
+        selector=dict(name="Actual GDP")
+    )
+    fig.update_layout(
+        xaxis_title="Year",
+        yaxis_title="GDP (in Trillions)",
+        dragmode=False
+    )
+    fig.update_traces(
+        line_color="red",
+        selector=dict(name="Predicted GDP")
+    )
+    st.plotly_chart(fig)
+    st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP. The predicted GDP line shows a continuation of this growth trend. You can adjust the forecast horizon to see the predicted GDPs over the next few years.")
+    st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
+    st.markdown(''':blue-background[Highlight-2] : The predicted GDP line indicates a continued upward trend.''')
+    st.markdown(''':blue-background[Highlight-3] : The more rapid rise from 2000 to 2023 suggests significant economic expansion and development in the last two decades.''')
+
+    #st.dataframe(combined_df)
+    #st.dataframe(actual_gdps)
+
   def forecast_bar_chart(self,years):
     # Get dataframe
     df =  self.model.makeForecast(years = range(1, years))
@@ -45,44 +98,6 @@ class PresentationComponents:
       
     st.plotly_chart(fig)
     st.write(f"The Bar Chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
-    st.markdown(''':blue-background[Highlight] : India is expected to touch $5 trillion in GDP at current prices by 2029-2030.''')
-    st.markdown("""
-    <div style="text-align: center; font-size: 0.8em; color: grey;">
-    The model is trained on data only up to 2023, so predictions may vary due to future uncertainties. Please verify important information independently.
-    </div>
-    """, unsafe_allow_html=True)
-
-  def forecast_line_chart(self, years):
-    # Get dataframe
-    df =  self.model.makeForecast(years = range(1, years))
-
-    # Plot figure
-    fig = px.line(
-        df, 
-        x="Year", 
-        y="GDP", 
-        title=f"GDP Forecast Over the Next {years-1} Years",
-        markers=True
-    )
-    fig.update_layout(
-        xaxis_title="Year",
-        yaxis_title="GDP (in Trillions)",
-        template="plotly_white",
-        xaxis=dict(
-            tickmode="linear",
-            tickangle=45,
-        ),
-        dragmode=False
-    )
-    fig.update_traces(
-        line=dict(color="royalblue", width=3),  
-        marker=dict(size=8, color="darkblue")
-    )
-    if(years > 17):
-      st.warning("Forecasting too far into the future may reduce accuracy.", icon="⚠️")
-      
-    st.plotly_chart(fig)
-    st.write(f"The Line Chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each point represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
     st.markdown(''':blue-background[Highlight] : India is expected to touch $5 trillion in GDP at current prices by 2029-2030.''')
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
