@@ -116,7 +116,7 @@ class Model:
     )
     return fig, fig1
     
-   def get_fitted_values(self):
+  def get_fitted_values(self):
     df = self.db.loadData()
     return df 
   
