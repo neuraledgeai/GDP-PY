@@ -115,6 +115,10 @@ class Model:
       yaxis_title="GDP (in Trillions)"
     )
     return fig, fig1
+    
+   def get_fitted_values(self):
+    df = self.db.loadData()
+    return df 
   
     
   
