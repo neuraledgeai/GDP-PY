@@ -1,6 +1,6 @@
 # GDP-PY
 
-GDP-PY is an advanced tool that analyzes India's economic potential, particularly its path to a $5 trillion GDP by 2030. It provides data-driven insights to inform strategic decision-making.
+GDP-PY is an advanced tool that analyzes India's economic potential, particularly its path to a $5 trillion GDP. It provides data-driven insights to inform strategic decision-making.
 
 # Features
 
@@ -13,7 +13,7 @@ GDP-PY is an advanced tool that analyzes India's economic potential, particularl
 # Emperical Research
 
 >[!TIP]
->For a deeper dive into the data description, emperical results and methods used in this project, please check out the [`Income_MentalHealth_Analysis.ipynb`](https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb) notebook. Whether you're interested in the technical details or the insights derived from the analysis, the notebook provides a comprehensive overview of the entire project.
+>For a deeper dive into the data description, emperical results and methods used in this project, please check out the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb) notebook. Whether you're interested in the technical details or the insights derived from the analysis, the notebook provides a comprehensive overview of the entire project.
 
 # License
 
