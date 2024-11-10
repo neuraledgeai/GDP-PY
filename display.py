@@ -49,7 +49,8 @@ class PresentationComponents:
     fig.update_layout(
         xaxis_title="Year",
         yaxis_title="GDP (in Trillions)",
-        dragmode=False
+        dragmode=False,
+        showlegend=False
     )
     fig.update_traces(
         line_color="red",
@@ -60,7 +61,7 @@ class PresentationComponents:
       st.warning("Forecasting too far into the future may reduce accuracy.", icon="⚠️")
       
     st.plotly_chart(fig)
-    st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP. You can adjust the forecast horizon to see the predicted GDPs over the next few years.")
+    st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP.")
     st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
     st.markdown(''':blue-background[Highlight-2] : The predicted GDP line indicates a continued upward trend.''')
     st.markdown(''':blue-background[Highlight-3] : The more rapid rise from 2000 to 2023 suggests significant economic expansion and development in the last two decades.''')
