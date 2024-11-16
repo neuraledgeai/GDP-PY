@@ -119,6 +119,40 @@ class Model:
   def get_fitted_values(self):
     df = self.db.loadData()
     return df 
+
+  def intercept(self):
+    return self.model.intercept_    
+
+  def coef(self):
+    return self.model.coef_[0]
+
+  def get_fitted_figure(self):
+    # Get data frame with lagged values 
+    df = self.db.loadData(lag=True)
+
+    # Split the data
+    target = "GDP"
+    feature = ["GDP_L1"]
+    X_train = df[feature]
+    y_train = df[target]
+
+    # Prepare the data for plotting 
+    data = pd.DataFrame({
+      "GDP": y_train,
+      "GDP_L1": X_train.squeeze(),  
+      "Predicted_GDP": self.model.predict(X_train)
+    })
+
+    # Plot the figure
+    fig = px.scatter(data, x="GDP_L1", y="GDP", title="Model Fitness",
+                     labels={"GDP_L1": "GDP_L1 (Previous Year, US$ Trillion)", "GDP": "GDP (Current US$ Trillion)"}
+                    )
+    fig.add_scatter(x=data["GDP_L1"], y=data["Predicted_GDP"],  mode="lines", name="Linear Model")
+    fig.update_layout(
+        dragmode=False
+    )
+    return fig
+
   
     
   
