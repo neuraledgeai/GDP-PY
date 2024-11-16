@@ -133,17 +133,28 @@ class PresentationComponents:
     st.write("This graph compares the actual GDP with the GDP predicted by the model. The closer the lines, the more accurate the model's predictions.")
   
   def downloadData(self, years):
-    # Get dataframe
-    df =  self.model.makeForecast(years = range(1, years))
+    # Get dataframes
+    predicted_gdps =  self.model.makeForecast(years = range(1, years))
+    actual_gdps = self.model.get_fitted_values()
+
+    # Reset the index to make 'Year' a column
+    actual_gdps = actual_gdps.reset_index()
+
+    # Add a column to indicate whether the data is actual or predicted
+    actual_gdps["Type"] = "Actual GDP"
+    predicted_gdps["Type"] = "Forecasted GDP"
+
+    # Combine the DataFrames
+    combined_df = pd.concat([actual_gdps, predicted_gdps])
     
     # Subheader
-    st.subheader("Download Predicted GDP Data")
+    st.subheader("Download Actual and Predicted GDP Data")
     
     # Information
-    st.write("Download the predicted GDP data as a csv file. Hover mouse over the dataframe or touch on it to access download option.")
+    st.write("Download the GDP data as a csv file. Hover mouse over the dataframe or touch on it to access download option.")
     
     # Dataframe
-    st.dataframe(df)
+    st.dataframe(combined_df)
     
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
