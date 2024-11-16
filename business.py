@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 #import matplotlib.pyplot as plt
-#from database import LocalDatabase
+from database import LocalDatabase
 import pandas as pd
 import plotly.express as px
 
