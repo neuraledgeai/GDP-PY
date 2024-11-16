@@ -1,15 +1,16 @@
 import streamlit as st
-#from database import LocalDatabase
-#from business import Model
 from display import PresentationComponents
 
+# Set page title and layout
 st.set_page_config(
     page_title="India GDP Forecasting Tool",
     layout="wide",
 )
 
+# Instantiate presentation layer
 pc = PresentationComponents()
 
+# Sidebar
 st.sidebar.header("Navigate the Dashboard")
 navigation = st.sidebar.radio(
     "Dive into the Data!",
@@ -24,7 +25,7 @@ navigation = st.sidebar.radio(
 )
 st.sidebar.header("Neural Edge AI")
 
-# Home section
+# Dashboard
 if navigation == "GDP Forecast":
     st.subheader("India's $5 Trillion Economy: :blue[A Data-Driven Perspective]")
     years = st.slider("Forecast Horizon (number of years)", 0, 20, 7)
