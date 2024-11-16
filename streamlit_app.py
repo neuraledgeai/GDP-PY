@@ -1,6 +1,6 @@
 import streamlit as st
-from database import LocalDatabase
-from business import Model
+#from database import LocalDatabase
+#from business import Model
 from display import PresentationComponents
 
 st.set_page_config(
