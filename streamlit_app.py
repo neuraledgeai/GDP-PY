@@ -3,7 +3,7 @@ from display import PresentationComponents
 
 # Set page title and layout
 st.set_page_config(
-    page_title="India GDP Forecasting Tool",
+    page_title="GDP-PY",
     layout="wide",
 )
 
