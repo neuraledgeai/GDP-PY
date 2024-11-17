@@ -27,7 +27,7 @@ st.sidebar.header("Neural Edge AI")
 
 # Dashboard
 if navigation == "GDP Forecast":
-    st.subheader("When will India touch $5 trillion economy milestone? :blue[A Data-Driven Perspective]")
+    st.subheader(":blue[When will India touch $5 trillion economy milestone?]")
     years = st.slider("Forecast Horizon (number of years)", 0, 20, 7)
     st.write("You can adjust the forecast horizon to see the predicted GDPs over the next few years.")
     pc.forecast_primary_chart(years = years+1)
