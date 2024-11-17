@@ -61,10 +61,7 @@ class PresentationComponents:
       
     st.plotly_chart(fig)
     st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP.")
-    st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
-    st.markdown(''':blue-background[Highlight-2] : The predicted GDP line indicates a continued upward trend.''')
-    st.markdown(''':blue-background[Highlight-3] : The more rapid rise from 2000 to 2023 suggests significant economic expansion and development in the last two decades.''')
-
+  
   def forecast_bar_chart(self,years):
     # Get dataframe
     df =  self.model.makeForecast(years = range(1, years))
@@ -97,6 +94,10 @@ class PresentationComponents:
     
     st.plotly_chart(fig)
     st.write(f"The bar chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
+    st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
+    st.markdown(''':blue-background[Highlight-2] : The predicted GDP line indicates a continued upward trend.''')
+    st.markdown(''':blue-background[Highlight-3] : The more rapid rise from 2000 to 2023 suggests significant economic expansion and development in the last two decades.''')
+
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
     The model is trained on data only up to 2023, so predictions may vary due to future uncertainties. Please verify important information independently.
