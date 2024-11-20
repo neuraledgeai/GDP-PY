@@ -11,7 +11,7 @@ st.set_page_config(
 pc = PresentationComponents()
 
 # Sidebar
-st.sidebar.header("Navigate the Dashboard")
+st.sidebar.header(":rainbow[colors]")
 navigation = st.sidebar.radio(
     "Dive into the Data!",
     ["GDP Forecast", "Resilient Economy", "Emperical Results", "Download Forecasted Data"],
