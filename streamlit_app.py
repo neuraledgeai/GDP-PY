@@ -14,7 +14,7 @@ pc = PresentationComponents()
 st.sidebar.header(":rainbow[GDP-PY]")
 navigation = st.sidebar.radio(
     "",
-    ["GDP Forecast", "Resilient Economy", "Emperical Results", "Download Forecasted Data"],
+    ["GDP Forecast", "*Resilient Economy*", "Emperical Results", "Download Forecasted Data"],
     captions=[
         "Visual Representation",
         "Visual Representation",
