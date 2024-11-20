@@ -11,7 +11,7 @@ st.set_page_config(
 pc = PresentationComponents()
 
 # Sidebar
-st.sidebar.header(":rainbow[GDP-PY]")
+st.sidebar.title(":rainbow[GDP-PY]")
 st.sidebar.write("A reliable Indian GDP Forecasting Tool")
 
 navigation = st.sidebar.radio(
