@@ -12,6 +12,8 @@ pc = PresentationComponents()
 
 # Sidebar
 st.sidebar.header(":rainbow[GDP-PY]")
+st.sidebar.write("A reliable Indian GDP Forecasting Tool")
+
 navigation = st.sidebar.radio(
     "",
     ["*GDP Forecast*", "*Resilient Economy*", "*Emperical Results*", "*Download Forecasted Data*"],
