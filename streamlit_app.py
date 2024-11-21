@@ -30,7 +30,7 @@ if selected == "Forecast GDP":
     pc.forecast_bar_chart(years = years+1)
 elif selected == "Emperical Results":
     pc.empericalResults()
-elif selected == "Download Forecasted Data":
+elif selected == "Download Data":
     years = st.slider("Forecast Horizon", 0, 20, 7)
     pc.downloadData(years = years+1)
 elif selected == "Resilient Economy":
