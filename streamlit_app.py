@@ -12,7 +12,7 @@ pc = PresentationComponents()
 
 # Sidebar
 st.sidebar.title(":rainbow[GDP-PY]")
-st.sidebar.write("A reliable Indian GDP Forecasting Tool")
+st.sidebar.write("A reliable Indian GDP Forecasting Tools")
 
 with st.sidebar:
     selected = option_menu(
