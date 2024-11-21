@@ -122,7 +122,7 @@ class PresentationComponents:
     df = df.reset_index()
     
     # Subheader
-    st.subheader("A Reliable Indian GDP Forecasting Tool")
+    st.subheader("Empower Your Decisions with GDP-PY: India's Premier Forecasting Tool")
     st.write("The goal of this empirical analysis is to forecast India’s GDP growth trajectory and estimate the specific year in which India is likely to reach a GDP of $5 trillion. To do so, we estimate a linear regression function of the form")
     st.latex(r"{\text{GDP}_{\text{next year}}} = {\beta}_0 + {\beta}_1 \cdot \text{GDP}_{\text{previous year}}")
     st.write(f"The independent variable is the GDP value from the previous year, which we use to forecast future values. For example, if you provide the 2023 GDP value as the independent variable, the model will estimate the 2024 GDP based on the estimated intercept *{intercept}* and estimated slope *{coefficient}*.")
