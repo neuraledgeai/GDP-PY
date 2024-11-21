@@ -166,7 +166,7 @@ class PresentationComponents:
 
   def resilientEconomy(self):
     # Subheader
-    st.subheader("Resilient Economy")
+    st.subheader("The Indian Economy has Demonstrated Remarkable Resilience")
     fig, fig1 = self.model.gdpGrowth()
     st.plotly_chart(fig)
     st.plotly_chart(fig1)
