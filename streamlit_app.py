@@ -1,5 +1,6 @@
 import streamlit as st
 from display import PresentationComponents
+from streamlit_option_menu import option_menu
 
 # Set page title and layout
 st.set_page_config(
