@@ -12,9 +12,7 @@ st.set_page_config(
 pc = PresentationComponents()
 
 # Sidebar
-st.sidebar.title(":rainbow[GDP-PY]")
-st.sidebar.write("A reliable Indian GDP Forecasting Tools")
-
+st.sidebar.write("A reliable Indian GDP Forecasting Tool")
 with st.sidebar:
     selected = option_menu(
         "GDP-PY", ["Forecast GDP", "Resilient Economy",  "Emperical Results", "Download Data"], 
