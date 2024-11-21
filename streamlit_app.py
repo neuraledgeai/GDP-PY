@@ -19,7 +19,7 @@ with st.sidebar:
         menu_icon="window-stack",
         #default_index=2
     )
-st.sidebar.write("GDP-PY is a project of **Neural Edge AI**")
+st.sidebar.write("A project of *Neural Edge AI*")
 
 # Dashboard
 if selected == "Forecast GDP":
