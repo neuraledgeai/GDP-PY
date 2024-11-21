@@ -12,7 +12,6 @@ st.set_page_config(
 pc = PresentationComponents()
 
 # Sidebar
-st.sidebar.write("A reliable Indian GDP Forecasting Tool")
 with st.sidebar:
     selected = option_menu(
         "GDP-PY", ["Forecast GDP", "Resilient Economy",  "Emperical Results", "Download Data"], 
@@ -20,7 +19,7 @@ with st.sidebar:
         menu_icon="window-stack",
         #default_index=2
     )
-st.sidebar.header("Neural Edge AI")
+st.sidebar.write("GDP-PY is a project of **Neural Edge AI**")
 
 # Dashboard
 if selected == "Forecast GDP":
