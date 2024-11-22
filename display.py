@@ -48,7 +48,7 @@ class PresentationComponents:
         xaxis_title="Year",
         yaxis_title="GDP (in Trillions)",
         dragmode=False,
-        title_x=0.39,
+        title_x=0.38,
         showlegend=False
     )
     fig.update_traces(
