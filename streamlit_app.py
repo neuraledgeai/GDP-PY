@@ -28,7 +28,7 @@ if selected == "Forecast GDP":
     st.write("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.")
     years = st.slider("Forecast Horizon (number of years)", 0, 20, 7)
     pc.forecast_primary_chart(years = years+1)
-    st.write(":blue[**When will India Touch $5 Trillion Economy Milestone?**]")
+    st.write("**When will India Touch $5 Trillion Economy Milestone?**")
     pc.forecast_bar_chart(years = years+1)
 elif selected == "Emperical Results":
     pc.empericalResults()
