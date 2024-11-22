@@ -22,6 +22,7 @@ with st.sidebar:
 st.sidebar.write("A project of *Neural Edge AI*")
 
 # Dashboard
+st.balloons()
 if selected == "Forecast GDP":
     st.subheader("Future GDP Outlook For India")
     st.write("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.")
