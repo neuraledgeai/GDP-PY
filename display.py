@@ -30,7 +30,7 @@ class PresentationComponents:
       x="Year", 
       y="GDP", 
       color="Type", 
-      title=" Path to a $5 Trillion Economy",
+      title="Charting India's Economic Rise",
       #line_dash="Type"  # This will make the 'Predicted GDP' line dotted
     )
     fig.update_traces(
