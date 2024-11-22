@@ -23,7 +23,7 @@ st.sidebar.write("A project of *Neural Edge AI*")
 
 # Dashboard
 if selected == "Forecast GDP":
-    st.subheader("Informed Decisions, Brighter Future: India's GDP Forecast")
+    st.subheader("Future GDP Outlook For India")
     st.write("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.")
     years = st.slider("Forecast Horizon (number of years)", 0, 20, 7)
     st.write(":blue[**When will India Touch $5 Trillion Economy Milestone?**]")
