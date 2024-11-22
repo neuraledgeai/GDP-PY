@@ -20,7 +20,7 @@ with st.sidebar:
         #default_index=2
     )
 #st.sidebar.write("A project of *Neural Edge AI*")
-st.sidebar.markdown("""<div style="text-align: center">A project of *<i>Neural Edge AI</i>*</div>""", unsafe_allow_html=True)
+st.sidebar.markdown("""<div style="text-align: center">A project of <i>Neural Edge AI</i></div>""", unsafe_allow_html=True)
 #st.markdown("""<div style="text-align: center">A project of *Neural Edge AI*</div>""", unsafe_allow_html=True)
 
 # Dashboard
