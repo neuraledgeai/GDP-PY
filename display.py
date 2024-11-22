@@ -82,7 +82,7 @@ class PresentationComponents:
           tickmode="linear",
           tickangle=45,
         ),
-        title_x=0.4,
+        title_x=0.35,
         dragmode=False
     )
     fig.update_traces(
