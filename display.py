@@ -31,6 +31,7 @@ class PresentationComponents:
       y="GDP", 
       color="Type", 
       title="Charting India's Economic Rise",
+      title_x=0.5
       #line_dash="Type"  # This will make the 'Predicted GDP' line dotted
     )
     fig.update_traces(
