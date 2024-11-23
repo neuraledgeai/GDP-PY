@@ -94,7 +94,6 @@ class PresentationComponents:
     st.plotly_chart(fig)
     st.write(f"The bar chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
     
-    #st.write("**Key Highlights**")
     with st.expander("Key Highlights", expanded = True):
       st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
       st.markdown(''':blue-background[Highlight-2] : The predicted GDP line indicates a continued upward trend.''')
@@ -178,5 +177,6 @@ class PresentationComponents:
     st.plotly_chart(fig1)
     st.write("This plot highlights India's journey through the period of transitional growth. The blue line represents India's actual GDP, while the red dashed line illustrates the transitional growth trend, reflecting a steady upward trajectory.")
     st.write("Notably, the data underscores the Indian economy's ability to recover and maintain growth momentum, even in the face of significant challenges. The alignment of pre-pandemic and post-pandemic growth trends signifies that India experienced no permanent loss in demand or output, showcasing its structural strength.")
-    st.markdown(''':blue-background[Highlight-1] : Indian economy is set in its transitional growth.''')
-    st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure no permanent loss in demand and output.''')
+    with st.expander("Key Highlights", expanded = True):
+      st.markdown(''':blue-background[Highlight-1] : Indian economy is set in its transitional growth.''')
+      st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure no permanent loss in demand and output.''')
