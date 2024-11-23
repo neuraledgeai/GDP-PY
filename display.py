@@ -173,6 +173,8 @@ class PresentationComponents:
     st.subheader("The Indian Economy has Demonstrated Remarkable Resilience")
     fig, fig1 = self.model.gdpGrowth()
     st.plotly_chart(fig)
+    st.write("This plot visualizes India's GDP trajectory over the years, highlighting a pivotal phase of transformational economic growth. Post-1991, the GDP curve accelerates significantly, indicating India's transition into a high-growth phase driven by economic reforms, increased globalization, and technological advancements.")
+    st.write("The red dashed line projects India's transitional growth trend, emphasizing the strong momentum. This trend reflects a robust economic foundation and the potential for continued expansion in the coming years.")
     st.plotly_chart(fig1)
     st.markdown(''':blue-background[Highlight-1] : Indian economy is set in its transitional growth.''')
     st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure no permanent loss in demand and output.''')
