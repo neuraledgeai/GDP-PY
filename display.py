@@ -30,7 +30,7 @@ class PresentationComponents:
       x="Year", 
       y="GDP", 
       color="Type", 
-      title="Charting India's Economic Rise : Past Growth and Future Projections",
+      title="India's GDP : Past Growth and Future Projections",
     )
     fig.update_traces(
         line=dict(width=3),  # Thicker line
@@ -61,7 +61,7 @@ class PresentationComponents:
       st.info("Adjust the *forecast horizon* to see the predicted GDPs over the next few years.", icon="💡")
        
     st.plotly_chart(fig)
-    st.write("The line chart illustrates India's GDP trajectory from 1960 to 2023, showcasing the nation's impressive economic rise. The **blue line** represents the actual GDP values recorded over time. The **red dashed line** represents the forecasted GDP from 2024 onward, offering insights into potential economic expansion in the coming years. You can clicking or touch on the lines for detailed data points.")
+    st.write("The line chart illustrates India's GDP trajectory from 1960 to 2023, showcasing the nation's impressive economic rise. The **blue line** represents the actual GDP values recorded over time. The **red dashed line** represents the forecasted GDP from 2024 onward, offering insights into potential economic expansion in the coming years. (You can click or touch on the lines for detailed data points).")
   
   def forecast_bar_chart(self,years):
     # Get dataframe
