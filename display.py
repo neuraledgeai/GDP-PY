@@ -59,7 +59,8 @@ class PresentationComponents:
       st.warning("Forecasting too far into the future may reduce accuracy.", icon="⚠️")
       
     st.plotly_chart(fig)
-    st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP.")
+    #st.write("The line chart depicts India's GDP growth. The blue line represents the actual GDP, while the red line shows the predicted GDP.")
+    st.write("The line chart illustrates India's GDP trajectory from 1960 to 2023, showcasing the nation's impressive economic rise. The blue line represents the actual GDP values recorded over time. The red dashed line represents the forecasted GDP from 2024 onward, offering insights into potential economic expansion in the coming years (clicking or touch on the lines for detailed data points).")
   
   def forecast_bar_chart(self,years):
     # Get dataframe
