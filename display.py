@@ -30,7 +30,7 @@ class PresentationComponents:
       x="Year", 
       y="GDP", 
       color="Type", 
-      title="Charting India's Economic Rise",
+      title="Charting India's Economic Rise : Past Growth and Future Projections",
     )
     fig.update_traces(
         line=dict(width=3),  # Thicker line
