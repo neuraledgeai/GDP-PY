@@ -135,7 +135,9 @@ class PresentationComponents:
     st.write("This graph compares the actual GDP with the GDP predicted by the model. The closer the lines, the more accurate the model's predictions.")
     with st.expander("More Details"):
       url = "https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb"
-      st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s).\ Discover, learn, and innovate!" % url)
+      #st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s). Discover, learn, and innovate!" % url)
+      st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s).  \nDiscover, learn, and innovate!" % url)
+
   
   def downloadData(self, years):
     # Get dataframes
