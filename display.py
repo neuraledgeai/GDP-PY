@@ -95,7 +95,7 @@ class PresentationComponents:
     )
     
     st.plotly_chart(fig)
-    st.write(f"The bar chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
+    st.write(f"This bar chart provides a visual representation of India’s projected GDP growth over the next {years-1} years. Each bar represents the forecasted GDP value for a given year, displayed in trillions of US dollars.")
     
     with st.expander("Key Highlights", expanded = True):
       st.markdown(''':blue-background[Highlight-1] : India is expected to touch **$5 trillion in GDP at current prices by 2029-2030**.''')
