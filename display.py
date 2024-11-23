@@ -182,4 +182,4 @@ class PresentationComponents:
     st.write("Notably, the data underscores the Indian economy's ability to recover and maintain growth momentum, even in the face of significant challenges. The alignment of pre-pandemic and post-pandemic growth trends signifies that India experienced no permanent loss in demand or output, showcasing its structural strength.")
     with st.expander("Key Highlights", expanded = True):
       st.markdown(''':blue-background[Highlight-1] : Indian economy is set in its transitional growth.''')
-      st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure no permanent loss in demand and output.''')
+      st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure **no permanent loss in demand and output**.''')
