@@ -136,7 +136,7 @@ class PresentationComponents:
     with st.expander("More Details"):
       url = "https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb"
       #st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s). Discover, learn, and innovate!" % url)
-      st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s).  \n\nDiscover, learn, and innovate!" % url)
+      st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebook](%s).  \nDiscover, learn, and innovate!" % url)
 
   
   def downloadData(self, years):
