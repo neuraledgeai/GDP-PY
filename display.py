@@ -133,6 +133,9 @@ class PresentationComponents:
     fig.update_layout(xaxis_title="Year", yaxis_title="GDP (in Trillions)")
     st.plotly_chart(fig)
     st.write("This graph compares the actual GDP with the GDP predicted by the model. The closer the lines, the more accurate the model's predictions.")
+    with st.expander("More Details", expanded = True):
+      url = "https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb"
+      st.markdown("Explore the full methodology and detailed steps in the [India_GDP_Forecast.ipynb notebooK](%s)" % url)
   
   def downloadData(self, years):
     # Get dataframes
