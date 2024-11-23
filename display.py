@@ -176,5 +176,7 @@ class PresentationComponents:
     st.write("This plot visualizes India's GDP trajectory over the years, highlighting a pivotal phase of transformational economic growth. Post-1991, the GDP curve accelerates significantly, indicating India's transition into a high-growth phase driven by economic reforms, increased globalization, and technological advancements.")
     st.write("The red dashed line projects India's transitional growth trend, emphasizing the strong momentum. This trend reflects a robust economic foundation and the potential for continued expansion in the coming years.")
     st.plotly_chart(fig1)
+    st.write("This plot highlights India's journey through the period of transitional growth. The blue line represents India's actual GDP, while the red dashed line illustrates the transitional growth trend, reflecting a steady upward trajectory.")
+    st.write("Notably, the data underscores the Indian economy's ability to recover and maintain growth momentum, even in the face of significant challenges. The alignment of pre-pandemic and post-pandemic growth trends signifies that India experienced no permanent loss in demand or output, showcasing its structural strength.")
     st.markdown(''':blue-background[Highlight-1] : Indian economy is set in its transitional growth.''')
     st.markdown(''':blue-background[Highlight-2] : The pre-pandemic and post-pandemic transitional growth trends ensure no permanent loss in demand and output.''')
