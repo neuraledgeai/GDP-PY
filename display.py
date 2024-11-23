@@ -57,9 +57,11 @@ class PresentationComponents:
     
     if(years > 17):
       st.warning("Forecasting too far into the future may reduce accuracy.", icon="⚠️")
+    else:
+      st.info("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.", icon="💡")
       
     #st.write("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.")  
-    st.info("You can start by adjusting the *forecast horizon* to see the predicted GDPs over the next few years.", icon="✅")
+    
     st.plotly_chart(fig)
     st.write("The line chart illustrates India's GDP trajectory from 1960 to 2023, showcasing the nation's impressive economic rise. The **blue line** represents the actual GDP values recorded over time. The **red dashed line** represents the forecasted GDP from 2024 onward, offering insights into potential economic expansion in the coming years. You can clicking or touch on the lines for detailed data points.")
   
