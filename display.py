@@ -56,7 +56,7 @@ class PresentationComponents:
     )
     
     if(years > 17):
-      st.warning("Forecasting too far into the future may reduce accuracy. mann", icon="⚠️")
+      st.warning("Forecasting too far into the future may reduce accuracy.", icon="⚠️")
     else:
       st.info("Adjust the *forecast horizon* to see the predicted GDPs over the next few years.", icon="💡")
        
