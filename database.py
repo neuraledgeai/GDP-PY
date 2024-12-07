@@ -79,6 +79,7 @@ class LocalDatabase:
     
     # Set 'Year' as the index for time-series analysis.
     # Drop unnecessary identifier columns after melting.
+    df["Year"] = pd.to_datetime(df["Year"], format="%Y")
     df = df.set_index("Year").drop(columns=["Country Name", "Country Code", "Indicator Name", "Indicator Code"])
     
     # Add a one-step lagged GDP feature if the lag parameter is True.
