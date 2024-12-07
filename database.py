@@ -69,7 +69,7 @@ class LocalDatabase:
             - 'GDP_L1' (if `lag=True`): The one-step lagged GDP values as floats.
     """
     
-    # Reshape the DataFrame using melt to organize the data..
+    # Reshape the DataFrame using melt to organize the data.
     df = pd.melt(
         self.df,
         id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],  # Columns to keep as identifiers
@@ -77,18 +77,17 @@ class LocalDatabase:
         value_name='GDP'      # The name of the new column for the GDP values
     )
     
-    # Set 'Year' as the index for time-series analysis.
-    # Drop unnecessary identifier columns after melting.
+    # Convert "Year" to a pandas datetime object and set it as the index for time-series analysis. Also drop unnecessary identifier columns.
     df["Year"] = pd.to_datetime(df["Year"], format="%Y")
-    df = df.set_index("Year").drop(columns=["Country Name", "Country Code", "Indicator Name", "Indicator Code"])
+    df = df.set_index("Year").drop(columns=["Country Name", "Country Code", "Indicator Name", "Indicator Code"]) 
     
-    # Add a one-step lagged GDP feature if the lag parameter is True.
+    # Add a one-step lagged GDP feature if the "lag" parameter is "True".
     if lag:
       df["GDP_L1"] = df["GDP"].shift(1) # Adding a new feature for GDP_L1
       df = df.dropna()  # Drop rows with NaN values resulting from the shift
-      df["GDP_L1"] = df["GDP_L1"].astype(float) # Ensure the lagged GDP column is of type float
+      df["GDP_L1"] = df["GDP_L1"].astype(float) # Ensure the "lagged-GDP" column is of type "float".
       
-    # Ensure the 'GDP' column is of type float for consistency in numerical operations.
+    # Ensure the "GDP" column is of type "float" for consistency in numerical operations.
     df["GDP"] = df["GDP"].astype(float) #Make sure that the GDP column is of type float.
     
     # Return the cleaned and processed DataFrame.
