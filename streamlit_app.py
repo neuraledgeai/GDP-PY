@@ -20,7 +20,7 @@ with st.sidebar:
         #default_index=2
     )
     
-url = "https://github.com/neuraledgeai/YouTube_Spam_Comment_Classifier_Project?tab=readme-ov-file#how-it-works"
+url = "https://github.com/neuraledgeai/GDP-PY/blob/main/README.md"
 st.sidebar.markdown(
     f"""<div style="text-align: center"><i><a href="{url}" target="_blank" style="text-decoration: none; color: inherit;">About this research work</a></i></div>""",
     unsafe_allow_html=True
