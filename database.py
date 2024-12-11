@@ -78,7 +78,7 @@ class LocalDatabase:
     )
     
     # Convert "Year" to a pandas datetime object and set it as the index for time-series analysis. Also drop unnecessary identifier columns.
-    df["Year"] = pd.to_datetime(df["Year"], format="%Y")
+    #df["Year"] = pd.to_datetime(df["Year"], format="%Y")
     df = df.set_index("Year").drop(columns=["Country Name", "Country Code", "Indicator Name", "Indicator Code"]) 
     
     # Add a one-step lagged GDP feature if the "lag" parameter is "True".
