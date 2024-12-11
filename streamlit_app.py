@@ -22,7 +22,7 @@ with st.sidebar:
 #st.sidebar.write("A project of *Neural Edge AI*")
 url = "https://github.com/neuraledgeai/YouTube_Spam_Comment_Classifier_Project?tab=readme-ov-file#how-it-works"
 st.sidebar.markdown(
-    f"""<div style="text-align: center"><i><a href="{url}" target="_blank" style="text-decoration: none; color: inherit;">About this research work</a></i></div>""",
+    f"""<div style="text-align: center"><i><a href="{url}" target="_blank">About this research work</a></i></div>""",
     unsafe_allow_html=True
 )
 #st.sidebar.markdown("""<div style="text-align: center"><i>About this research work</i></div>""", unsafe_allow_html=True)
