@@ -21,7 +21,7 @@ with st.sidebar:
     )
 #st.sidebar.write("A project of *Neural Edge AI*")
 st.sidebar.markdown("""<div style="text-align: center">About this research work<i>Neural Edge AI</i></div>""", unsafe_allow_html=True)
-#st.markdown("""<div style="text-align: center">A project of *Neural Edge AI*</div>""", unsafe_allow_html=True)
+#st.markdown("""<div style="text-align: center">*About this research work*</div>""", unsafe_allow_html=True)
 
 # Dashboard
 if selected == "Forecast GDP":
