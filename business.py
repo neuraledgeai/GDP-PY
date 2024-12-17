@@ -183,10 +183,44 @@ class Model:
     df = self.db.loadData(lag=lag)
     return df
 
+  #def intercept(self):
+   # return self.model.intercept_   
+  
   def intercept(self):
-    return self.model.intercept_    
+    """
+    Retrieves the intercept term of the fitted model.
 
+    Description
+    -----------
+    This method returns the intercept term (`beta_0`) of the linear regression model 
+    associated with this class. The intercept represents the baseline value of the 
+    dependent variable when all predictor variables are zero.
+
+    Returns
+    -------
+    float
+        The intercept value of the linear regression model.
+    """
+    return self.model.intercept_
+
+  #def coef(self):
+   # return self.model.coef_[0]
   def coef(self):
+    """
+    Retrieves the coefficient of the fitted model.
+
+    Description
+    -----------
+    This method returns the coefficient (`beta_1`) of the linear regression model.
+    The coefficient represents the relationship between the predictor variable (GDP_L1) 
+    and the target variable (GDP). It indicates the change in the target variable for a unit 
+    increase in the predictor variable.
+
+    Returns
+    -------
+    float
+        The coefficient value of the linear regression model.
+    """
     return self.model.coef_[0]
 
   def get_fitted_figure(self):
