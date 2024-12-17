@@ -84,22 +84,41 @@ class Model:
 
 
   def predict(self):
-    # Prepare data
-    #db = LocalDatabase()
+    """
+    Generates predictions for GDP using the trained linear regression model.
+
+    Description
+    -----------
+    This method predicts GDP values based on the trained model using lagged GDP (`GDP_L1`) as the input feature.  
+    It can be used to evaluate how well the model has learned the training data by comparing the actual GDP values with the predicted values.
+
+    Returns
+    -------
+    pd.DataFrame
+        A DataFrame containing:
+        - 'GDP': Actual GDP values from the dataset.
+        - 'GDP_L1': The one-step lagged GDP values used as the input feature.
+        - 'Predicted GDP': The GDP values predicted by the trained model.
+
+    Notes
+    -----
+    - The input data for prediction is loaded using the `loadData` method with `lag=True`, ensuring that `GDP_L1` is available as the feature.
+    - This method provides an assessment of the model's performance on the training data by comparing predicted values with actual values.
+    """
+    # Load the data with lagged GDP values
     df = self.db.loadData(lag=True)
 
-    # Split
+    # Define the feature (GDP_L1) for prediction
     feature = ["GDP_L1"]
     X = df[feature]
-    
-    # Result
-    result = pd.DataFrame(
-      {
-        "GDP" : df["GDP"],
-        "GDP_L1" : df["GDP_L1"],
-        "Predicted GDP" : self.model.predict(X)
-      }
-    )
+
+    # Prepare a DataFrame to hold actual GDP, lagged GDP, and predicted GDP
+    result = pd.DataFrame({
+        "GDP": df["GDP"],                  # Actual GDP values
+        "GDP_L1": df["GDP_L1"],            # Lagged GDP values (feature)
+        "Predicted GDP": self.model.predict(X)  # Predicted GDP values
+    })
+
     return result
 
   def gdpGrowth(self):
