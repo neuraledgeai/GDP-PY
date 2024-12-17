@@ -159,11 +159,6 @@ class Model:
     # Return the two generated figures.
     return fig, fig1
 
-    
-  #def get_fitted_values(self):
-   # df = self.db.loadData()
-    #return df 
-
   def get_fitted_values(self, lag=False):
     """
     Retrieves the cleaned GDP data from the database.
@@ -192,9 +187,6 @@ class Model:
     df = self.db.loadData(lag=lag)
     return df
 
-  #def intercept(self):
-   # return self.model.intercept_   
-  
   def intercept(self):
     """
     Retrieves the intercept term of the fitted model.
@@ -212,8 +204,6 @@ class Model:
     """
     return self.model.intercept_
 
-  #def coef(self):
-   # return self.model.coef_[0]
   def coef(self):
     """
     Retrieves the coefficient of the fitted model.
@@ -233,32 +223,67 @@ class Model:
     return self.model.coef_[0]
 
   def get_fitted_figure(self):
-    # Get data frame with lagged values 
+    """
+    Generates a scatter plot to visualize the model's fitness on the training data.
+
+    Description
+    -----------
+    This method creates a scatter plot to evaluate how well the linear regression model fits the training data.  
+    It plots the actual GDP values (`GDP`) against the one-step lagged GDP values (`GDP_L1`) and overlays 
+    the model's predicted GDP values as a linear trend line.
+
+    The figure helps assess the model's performance visually by comparing the predicted values with the actual data.
+
+    Returns
+    -------
+    plotly.graph_objs._figure.Figure
+        An interactive Plotly scatter plot with:
+        - Points representing the actual GDP values vs. the lagged GDP values.
+        - A linear model line showing the predicted GDP values.
+
+    Notes
+    -----
+    - The data for this visualization is retrieved using the `loadData` method with `lag=True` to include the `GDP_L1` feature.
+    - The predicted GDP values are obtained using the fitted linear regression model (`self.model`).
+    """
+    # Load the data with lagged GDP values
     df = self.db.loadData(lag=True)
 
-    # Split the data
+    # Define target and feature variables
     target = "GDP"
     feature = ["GDP_L1"]
     X_train = df[feature]
     y_train = df[target]
 
-    # Prepare the data for plotting 
+    # Prepare a DataFrame for plotting: actual GDP, lagged GDP, and predicted GDP
     data = pd.DataFrame({
-      "GDP": y_train,
-      "GDP_L1": X_train.squeeze(),  
-      "Predicted_GDP": self.model.predict(X_train)
+        "GDP": y_train,
+        "GDP_L1": X_train.squeeze(),  
+        "Predicted_GDP": self.model.predict(X_train)
     })
 
-    # Plot the figure
-    fig = px.scatter(data, x="GDP_L1", y="GDP", title="Model Fitness",
-                     labels={"GDP_L1": "GDP_L1 (Previous Year, US$ Trillion)", "GDP": "GDP (Current US$ Trillion)"}
-                    )
-    fig.add_scatter(x=data["GDP_L1"], y=data["Predicted_GDP"],  mode="lines", name="Linear Model")
-    fig.update_layout(
-        dragmode=False
+    # Create a scatter plot to visualize actual vs predicted GDP values
+    fig = px.scatter(
+        data, 
+        x="GDP_L1", 
+        y="GDP", 
+        title="Model Fitness",
+        labels={
+            "GDP_L1": "GDP_L1 (Previous Year, US$ Trillion)", 
+            "GDP": "GDP (Current US$ Trillion)"
+        }
     )
-    return fig
 
-  
-    
-  
+    # Add the model's predicted line to the plot
+    fig.add_scatter(
+        x=data["GDP_L1"], 
+        y=data["Predicted_GDP"],  
+        mode="lines", 
+        name="Linear Model"
+    )
+
+    # Update figure layout for better interactivity and presentation
+    fig.update_layout(dragmode=False)
+
+    # Return the figure
+    return fig
