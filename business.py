@@ -100,13 +100,9 @@ class Model:
     
     
     # Plot ransitional growth
+    df["Year"] = df["Year"].dt.strftime("%Y")
     fig1 = px.line(df, x="Year", y="GDP", title="Transitional Growth", range_x=[start_year, end_year])
-    #fig1.add_scatter(x=[start_year, end_year], y=[start_gdp, end_gdp], mode='lines', name="Transitional growth trend", line=dict(dash='dash', color='red'))
-    fig1.add_scatter(x=[pd.to_datetime(str(start_year)), pd.to_datetime(str(end_year))],
-                 y=[start_gdp, end_gdp],
-                 mode='lines',
-                 name="Transitional growth trend",
-                 line=dict(dash='dash', color='red'))
+    fig1.add_scatter(x=[start_year, end_year], y=[start_gdp, end_gdp], mode='lines', name="Transitional growth trend", line=dict(dash='dash', color='red'))
     fig1.update_layout(
       dragmode=False,
       legend=dict(
