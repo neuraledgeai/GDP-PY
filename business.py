@@ -160,9 +160,28 @@ class Model:
     return fig, fig1
 
     
-  def get_fitted_values(self):
-    df = self.db.loadData()
-    return df 
+  #def get_fitted_values(self):
+   # df = self.db.loadData()
+    #return df 
+
+  def get_fitted_values(self, lag=False):
+    """
+    Retrieves the cleaned GDP data from the database.
+
+    Description
+    -----------
+    This method loads and returns the processed GDP data for further analysis or modeling.
+    
+    Returns
+    -------
+    pd.DataFrame
+        A DataFrame containing the cleaned GDP data with:
+        - Index: Year (datetime index).
+        - Columns: 
+            - 'GDP': The GDP values as floats.
+    """
+    df = self.db.loadData(lag=lag)
+    return df
 
   def intercept(self):
     return self.model.intercept_    
