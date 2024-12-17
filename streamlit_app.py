@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 # Set page title and layout
 st.set_page_config(
-    page_title="GDP-PY",
+    page_title="GDP-PYk",
     layout="wide",
 )
 
