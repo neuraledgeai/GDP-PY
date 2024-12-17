@@ -68,53 +68,97 @@ class Model:
     return result
 
   def gdpGrowth(self):
+    """
+    Generates two interactive line plots to visualize India's GDP growth and its transitional economic growth.
+
+    Description
+    -----------
+    This method produces two figures:
+    1. **GDP Growth at Current Prices**: A line chart showing India's GDP trends over the years.
+    2. **Transitional Growth**: A focused chart highlighting India's economic resilience and transitional growth 
+       between 2003 and 2023 with a trend line.
+
+    Returns
+    -------
+    tuple
+        A tuple containing two Plotly figures:
+        - fig : Plotly Figure
+            GDP Growth at Current Prices.
+        - fig1 : Plotly Figure
+            Transitional Growth with a trend line for 2003–2023.
+
+    Notes
+    -----
+    - The data is sourced from the `loadData` method of the database object (`self.db`).
+    - A transitional trend line is manually added to both charts to represent economic growth 
+      between the years 2003 and 2023.
+
+    """
+    # Load GDP data from the database and reset the index to make 'Year' a column.
     df = self.db.loadData()
-    
-    # Reset the index to make 'Year' a column
     df = df.reset_index()
 
-    # Data for trend line
-    start_year, end_year = 2003, 2023 
+    # Define data points for the transitional trend line.
+    start_year, end_year = 2003, 2023
     start_gdp, end_gdp = 607700687237.318, 3549918918777.53
 
-    # Plot GDP growth
-    fig = px.line(df, x="Year", y="GDP", title="GDP Growth at Current Prices")
-    fig.update_layout(
-      dragmode=False,
-      xaxis_title="Year",
-      yaxis_title="GDP (in Trillions)"
+    # 1. Plot GDP Growth at Current Prices
+    fig = px.line(
+        df, 
+        x="Year", 
+        y="GDP", 
+        title="GDP Growth at Current Prices"
     )
-    fig.add_scatter(x=[start_year, end_year], y=[start_gdp, end_gdp], mode='lines', name="Transitional growth trend", line=dict(dash='dash', color='red'))
-    fig.update_layout(
-      dragmode=False,
-      legend=dict(
-        yanchor="top",
-        y=0.99,
-        xanchor="left",
-        x=0.01
-      ),
-      xaxis_title="Year",
-      yaxis_title="GDP (in Trillions)"
+    fig.add_scatter(
+        x=[start_year, end_year], 
+        y=[start_gdp, end_gdp], 
+        mode='lines', 
+        name="Transitional growth trend", 
+        line=dict(dash='dash', color='red')
     )
-    
-    
-    
-    # Plot ransitional growth
-    df["Year"] = df["Year"].dt.strftime("%Y")
-    fig1 = px.line(df, x="Year", y="GDP", title="Transitional Growth", range_x=[start_year, end_year])
-    fig1.add_scatter(x=[start_year, end_year], y=[start_gdp, end_gdp], mode='lines', name="Transitional growth trend", line=dict(dash='dash', color='red'))
+    fig.update_layout(
+        dragmode=False,
+        xaxis_title="Year",
+        yaxis_title="GDP (in Trillions)",
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01
+        )
+    )
+
+    # 2. Plot Transitional Growth (2003–2023)
+    df["Year"] = df["Year"].dt.strftime("%Y")  # Format 'Year' as a string for clean display
+    fig1 = px.line(
+        df, 
+        x="Year", 
+        y="GDP", 
+        title="Transitional Growth",
+        range_x=[start_year, end_year]
+    )
+    fig1.add_scatter(
+        x=[start_year, end_year], 
+        y=[start_gdp, end_gdp], 
+        mode='lines', 
+        name="Transitional growth trend", 
+        line=dict(dash='dash', color='red')
+    )
     fig1.update_layout(
-      dragmode=False,
-      legend=dict(
-        yanchor="top",
-        y=0.99,
-        xanchor="left",
-        x=0.01
-      ),
-      xaxis_title="Year",
-      yaxis_title="GDP (in Trillions)"
+        dragmode=False,
+        xaxis_title="Year",
+        yaxis_title="GDP (in Trillions)",
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01
+        )
     )
+
+    # Return the two generated figures.
     return fig, fig1
+
     
   def get_fitted_values(self):
     df = self.db.loadData()
