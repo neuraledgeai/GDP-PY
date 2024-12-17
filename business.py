@@ -170,15 +170,24 @@ class Model:
 
     Description
     -----------
-    This method loads and returns the processed GDP data for further analysis or modeling.
-    
+    This method loads and returns the processed GDP data for further analysis or modeling. 
+    By setting the `lag` parameter to `True`, the returned DataFrame will include a 
+    one-step lagged feature (`GDP_L1`), in addition to the current GDP values.
+
+    Parameters
+    ----------
+    lag : bool, optional, default=False
+        If True, includes a one-step lagged GDP feature (`GDP_L1`) in the returned DataFrame.
+        If False, only the current GDP values are included.
+
     Returns
     -------
     pd.DataFrame
-        A DataFrame containing the cleaned GDP data with:
+        A DataFrame containing the processed GDP data with:
         - Index: Year (datetime index).
-        - Columns: 
+        - Columns:
             - 'GDP': The GDP values as floats.
+            - 'GDP_L1' (optional): One-step lagged GDP values as floats (if `lag=True`).
     """
     df = self.db.loadData(lag=lag)
     return df
