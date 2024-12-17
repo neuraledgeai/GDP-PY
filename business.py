@@ -17,36 +17,71 @@ class Model:
     self.db = db
     
   def makeForecast(self, years):
-    # This is GDP for 2023, so that we can start predicting from 2024 to the given number of years
-    gdp = 3_353_470_000_000
+    """
+    Generates GDP forecasts for a specified number of future years using the trained linear regression model.
+
+    Description
+    -----------
+    This method predicts future GDP values starting from the most recent known GDP value (2023). 
+    It iteratively predicts the GDP for each year in the provided list using the fitted linear regression model, 
+    where each year's GDP is based on the previous year's predicted value.
+
+    Parameters
+    ----------
+    years : list of int
+        A list of integers representing the years for which GDP forecasts are to be made. 
+        Each value in the list represents an additional year (e.g., [1, 2, 3] corresponds to 2024, 2025, 2026).
+
+    Returns
+    -------
+    pd.DataFrame
+        A DataFrame containing the following columns:
+        - 'Year': The forecasted years as integers.
+        - 'GDP': The predicted GDP values for each corresponding year as floats.
+
+    Notes
+    -----
+    - The prediction starts from a GDP value of $3.353 trillion for the year 2023.
+    - Each forecasted GDP value is used as input to predict the GDP of the subsequent year.
+    - The method assumes a simple autoregressive structure where the previous year's GDP is the predictor.
+    """
+    # Initialize GDP value and corresponding year
+    gdp = 3_353_470_000_000  # GDP for 2023
     corresponding_year = 2023
-    
-    # To keep predicted GDPs and their corresponding years
+
+    # Lists to store predicted GDPs and corresponding years
     predicted_gdps = []
     corresponding_years = []
 
+    # Generate predictions for each year in the input list
     for year in years:
-      # Prepare data
-      X = np.array([[gdp]])
+        # Prepare the data for prediction
+        X = np.array([[gdp]])
 
-      # Make prediction and update the corresponding year and gdp
-      predicted_gdp = self.model.predict(X)
-      corresponding_year = corresponding_year + 1
-      gdp = predicted_gdp[0]
-      
-      # Add predicted_gdp and corresponding_year to predicted_gdps and corresponding_years lists
-      predicted_gdps.append(predicted_gdp)
-      corresponding_years.append(corresponding_year)
+        # Make prediction using the trained model
+        predicted_gdp = self.model.predict(X)
 
+        # Update GDP and corresponding year for the next iteration
+        corresponding_year += 1
+        gdp = predicted_gdp[0]
+
+        # Append the results to the respective lists
+        predicted_gdps.append(predicted_gdp)
+        corresponding_years.append(corresponding_year)
+
+    # Create a DataFrame to store forecasted results
     data = {
-      "Year" : corresponding_years,
-      "GDP" : predicted_gdps
+        "Year": corresponding_years,
+        "GDP": predicted_gdps
     }
     df = pd.DataFrame(data)
+
+    # Ensure correct data types for output
     df["Year"] = df["Year"].astype(int)
     df["GDP"] = df["GDP"].astype(float)
-    
+
     return df
+
 
   def predict(self):
     # Prepare data
