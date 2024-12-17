@@ -9,12 +9,38 @@ import plotly.express as px
 
 class Model:
   def __init__(
-    self,
-    model_name = "india_gdp_forecasting_model.pkl",
-    db = LocalDatabase()
+    self, 
+    model_name="india_gdp_forecasting_model.pkl",
+    db=LocalDatabase()
   ):
+    """
+    Initializes the Model class by loading a trained linear regression model 
+    and setting up the database for GDP data.
+
+    Parameters
+    ----------
+    model_name : str, optional, default="india_gdp_forecasting_model.pkl"
+        The file name of the trained linear regression model saved as a .pkl file.
+        This model is used for GDP prediction and forecasting.
+
+    db : LocalDatabase
+        An instance of the `LocalDatabase` class used to load and process the GDP data.
+        By default, a new instance of `LocalDatabase` is created.
+
+    Attributes
+    ----------
+    model : object
+        The trained linear regression model loaded using `joblib`.
+
+    db : LocalDatabase
+        The database object that provides access to the GDP data for analysis and prediction.
+    """
+    # Load the trained linear regression model
     self.model = joblib.load(model_name)
+
+    # Initialize the database for GDP data
     self.db = db
+
     
   def makeForecast(self, years):
     """
