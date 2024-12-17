@@ -8,6 +8,72 @@ import pandas as pd
 import plotly.express as px
 
 class Model:
+  """
+    A class for GDP forecasting and analysis using a trained linear regression model.
+
+    Description
+    -----------
+    The `Model` class facilitates GDP analysis, forecasting, and visualization by leveraging a 
+    pre-trained linear regression model. It allows users to evaluate the model's fitness, 
+    predict GDP values, and generate forecasts for future years based on an autoregressive structure 
+    (using lagged GDP values). The class also provides methods to access model parameters, such as 
+    the intercept and coefficient.
+
+    The GDP data is loaded and processed using an instance of the `LocalDatabase` class, which ensures 
+    clean and formatted input for the linear regression model.
+
+    Parameters
+    ----------
+    model_name : str, optional, default="india_gdp_forecasting_model.pkl"
+        The file name of the trained linear regression model saved as a .pkl file.
+
+    db : LocalDatabase, optional, default=LocalDatabase()
+        An instance of the `LocalDatabase` class used to load and process GDP data.
+
+    Attributes
+    ----------
+    model : object
+        The trained linear regression model loaded from the specified file.
+        This model is used for all predictions and forecasts.
+
+    db : LocalDatabase
+        An instance of the `LocalDatabase` class, responsible for providing processed GDP data 
+        (including lagged values, if required).
+
+    Methods
+    -------
+    makeForecast(years)
+        Generates GDP forecasts for a specified number of future years.
+        
+    predict()
+        Predicts GDP values based on lagged GDP (`GDP_L1`) and evaluates model performance 
+        against the training data.
+        
+    gdpGrowth()
+        Generates line plots to visualize India's GDP growth trends and transitional economic 
+        resilience over time.
+
+    get_fitted_values(lag=False)
+        Retrieves the cleaned GDP data with an optional lagged feature (`GDP_L1`).
+
+    intercept()
+        Retrieves the intercept term of the trained linear regression model.
+
+    coef()
+        Retrieves the coefficient term of the trained linear regression model.
+
+    get_fitted_figure()
+        Generates a scatter plot to evaluate the model's fitness on training data 
+        by comparing actual and predicted GDP values.
+
+    Notes
+    -----
+    - The class assumes a simple linear regression model where GDP is predicted based on its 
+      one-step lagged value (GDP_L1).
+    - This class is designed to analyze India's GDP trends but can be generalized for 
+      other datasets if properly formatted.
+    """
+  
   def __init__(
     self, 
     model_name="india_gdp_forecasting_model.pkl",
@@ -41,7 +107,6 @@ class Model:
     # Initialize the database for GDP data
     self.db = db
 
-    
   def makeForecast(self, years):
     """
     Generates GDP forecasts for a specified number of future years using the trained linear regression model.
@@ -107,7 +172,6 @@ class Model:
     df["GDP"] = df["GDP"].astype(float)
 
     return df
-
 
   def predict(self):
     """
