@@ -1,8 +1,8 @@
 # Forecasting India's Path to a $5 Trillion Economy
 
-This research paper explores India's economic growth trajectory with a focus on forecasting the timeline for achieving the $5 trillion GDP milestone. It develops a predictive model and an interactive web application (GDP-PY) to visualize and analyze India’s GDP growth trends.
+This is a research work which explores India's economic growth trajectory with a focus on forecasting the timeline for achieving the $5 trillion GDP milestone. It develops a predictive model and an interactive web application (GDP-PY) to visualize and analyze India’s GDP growth trends.
 
-The project leverages historical GDP data, machine learning models, and interactive visualizations to make economic trends accessible and actionable.
+The project leverages historical GDP data, machine learning models, and interactive visualizations to make economic trends accessible and actionable. The findings are designed to support policymakers, researchers, and enthusiasts in understanding India’s economic trajectory.
 
 # 📜 Abstract
 
