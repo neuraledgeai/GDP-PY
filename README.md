@@ -4,13 +4,13 @@ This is a research work which explores India's economic growth trajectory with a
 
 The project leverages historical GDP data, machine learning models, and interactive visualizations to make economic trends accessible and actionable. The findings are designed to support policymakers, researchers, and enthusiasts in understanding India’s economic trajectory.
 
-# 📜 Abstract
+# Abstract
 
 India's economy has demonstrated remarkable resilience and steady growth, particularly in the wake of transformative events like the 1991 economic reforms and the COVID-19 pandemic. This research employs a linear regression model trained on historical GDP data to estimate when India will achieve a GDP of $5 trillion. The findings highlight that, on average, this milestone is expected to be reached by 2029–2030, with robust economic trends underpinning this projection.
 
 The interactive web tool, GDP-PY, complements this research by providing visual insights, downloadable data, and customizable forecasting horizons for researchers, policymakers, and enthusiasts.
 
-# 🎯 Objectives
+# Objectives
 
 1. Develop a predictive model to forecast India's GDP for future years.
 2. Estimate when India will achieve a GDP of $5 trillion at current prices.
@@ -18,7 +18,7 @@ The interactive web tool, GDP-PY, complements this research by providing visual 
 4. Provide an open-source, user-friendly web application (GDP-PY) to explore GDP trends.
 5. Share the methodology transparently to foster collaboration and innovation.
 
-# 🚀 Features
+# Features
 
 - **Customizable Forecast Horizons**: Explore GDP projections for your desired timeline.
 - **Visual Insights**: Line and bar charts highlight past growth, predictions, and transitional trends.
@@ -26,7 +26,7 @@ The interactive web tool, GDP-PY, complements this research by providing visual 
 - **Downloadable Data**: Access historical and forecasted GDP data for further analysis.
 - **Open-Source Methodology**: Transparent implementation to foster collaboration.
 
-# 📊 Components
+# Components
 
 1. **GDP Forecasting**
    - Predict GDP values for future years using a trained regression model.
@@ -37,7 +37,7 @@ The interactive web tool, GDP-PY, complements this research by providing visual 
 3. **Interactive Web Application: GDP-PY**
    - Visit [GDP-PY](https://gdp-py.streamlit.app) for interactive visualizations, tools, and insights.
 
-# 🛠 Methodology
+# Methodology
 
 1. **Data Collection**
    - Historical GDP data (1960–2023) sourced from the [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN).
@@ -50,7 +50,7 @@ The interactive web tool, GDP-PY, complements this research by providing visual 
 6. **Visualization and User Interaction**
    - A web application ([GDP-PY](https://gdp-py.streamlit.app)) was developed to present the findings interactively.
 
-# 🌟 Explore
+# Explore
 
 **🦋 Web Application**
 
