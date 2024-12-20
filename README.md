@@ -64,12 +64,12 @@ Visit [GDP-PY](https://gdp-py.streamlit.app) to explore visualizations and predi
 **🔬 Emperical Results**
 
 - Forecast Accuracy: The model predicts GDP growth trends with high reliability.
-- Key Insight: India will likely achieve $5 trillion GDP by 2029-2030 at current prices.
+- Key Insight: The model estimates that, on average, India is expected to touch *$5 trillion in GDP at current prices by 2029-2030*.
 
 >[!TIP]
 >For a deeper dive into the data description, emperical results and methods used in this project, please check out the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/GDP-PY/blob/main/Forecasting_India_GDP.ipynb) notebook. Whether you're interested in the technical details or the insights derived from the analysis, the notebook provides a comprehensive overview of the entire project.
 
-**📜 Research Paper**
+**📖 Research Paper**
 
 Access the research paper [here](https://www.icloud.com/iclouddrive/048iIlJkniilUGX0RKN6tESFg#Forecasting_India's_Path_to_a_%245_Trillion_Economy_pdf).
 
