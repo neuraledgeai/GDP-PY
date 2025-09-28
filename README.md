@@ -13,3 +13,5 @@ The figure given above shows the country’s historical GDP data in current USD 
 | 2027 | 4.78 |
 | 2028 | 5.11 |
 | 2029 | 5.47 |
+
+Therefore, the growth rate of GDP for 2025 is forecasted at 6.93%, and 6.92% for 2026. This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question, lowering domestic demand (including credit demand), pessimistic behaviour, and the current situation of the Indian economy nearing a liquidity trap pose setbacks. 
