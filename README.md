@@ -19,7 +19,7 @@ Therefore, the growth rate of GDP for 2025 is forecasted at 6.93%, and 6.92% for
 
 ## 🧠 Methodology and Data
 
-You can get a quick view of the methodology and ML workflow here.  
+You can get a quick view of the methodology and ML workflow [here](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp_current_usd_india_forecast.ipynb).  
 All the data, including the training dataset, can be accessed from this [directory](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data).  
 
 ## 🙌 Support
