@@ -2,7 +2,7 @@
 
 _A macroeconomic outlook with risks and opportunities_
 
-- GDP to grow **6.93% in 2025**.
+- India's GDP to grow **6.93% in 2025**.
 - And **6.92% in 2026**.
 
 > [!NOTE]
