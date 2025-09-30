@@ -8,6 +8,8 @@ _A macroeconomic outlook with risks and opportunities_
 > [!NOTE]
 > Forecasts are based on GDP-PY projections at current USD.
 
+**Table 1: Forecasted Annual GDP Growth (%)**
+
 | Year | Growth Rate |
 |------|-------------|
 | 2025 | 6.93% |
