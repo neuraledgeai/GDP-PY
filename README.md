@@ -18,16 +18,18 @@ _A macroeconomic outlook with risks and opportunities_
 This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Key challenges include:
 - lowering domestic demand (including credit demand),
 - pessimistic expectations,
-- and the current situation of the Indian economy nearing a liquidity trap[^1] pose setbacks.
+- and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
 
 > [!IMPORTANT]
-> **In short**: India’s economy is set for **high growth in the near term**, but the post-2027 landscape will greatly depend on *reforms and revival*.
+> **In short**: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on *reforms and revival*.
 
-## 📊 Path to a $5 Trillion Economy
+## 📊 India’s Path to a $5 Trillion Economy
 
 <img width="907" height="360" alt="newplot" src="https://github.com/user-attachments/assets/dbd31417-94cd-4ac5-a237-82bbd3891bbb" />
 
 India is expected to touch the most awaited $5 trillion GDP (at current prices) by 2028. This growth is backed by the country's economic resilience to sustain it. 
+
+**Table 2: Forecasted GDP of India (Trillion USD)**
 
 | Year | GDP Forecast (Trillion USD) |
 |------|------------------------------|
@@ -37,7 +39,9 @@ India is expected to touch the most awaited $5 trillion GDP (at current prices) 
 | **2028** | **5.11 ⭐️** |
 | 2029 | 5.47 |
 
-Therefore, the growth rate of GDP for 2025 is forecasted at 6.93%, and 6.92% for 2026. 
+> [!IMPORTANT]
+> **In short**: The $5 trillion mark is within reach, but the *quality of growth* — inclusive, sustainable, and reform-driven — will define India’s long-term trajectory.
+
 ## 🧠 Methodology and Data
 
 You can get a quick view of the methodology and ML workflow [here](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp_current_usd_india_forecast.ipynb).  
