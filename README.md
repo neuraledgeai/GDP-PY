@@ -1,7 +1,12 @@
-## Forecast: 🚀 Sustained High Growth Momentum
+## 🚀 India GDP Growth Forecast (2025–2026)
 
-- GDP-PY forecasts India's GDP at current USD to grow by **6.93% in 2025**.
+_A macroeconomic outlook with risks and opportunities_
+
+- GDP to grow **6.93% in 2025**.
 - And **6.92% in 2026**.
+
+> [!NOTE]
+> Forecasts are based on GDP-PY projections at current USD.
 
 | Year | Growth Rate |
 |------|-------------|
@@ -14,7 +19,7 @@ This indicates a stable growth for the economy. However, whether sustaining this
 - and the current situation of the Indian economy nearing a liquidity trap[^1] pose setbacks.
 
 > [!IMPORTANT]
-> In short: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on reforms and revival.
+> **In short**: India’s economy is set for **high growth in the near term**, but the post-2027 landscape will greatly depend on *reforms and revival*.
 
 ## 📊 Path to a $5 Trillion Economy
 
