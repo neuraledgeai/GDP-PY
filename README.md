@@ -1,4 +1,4 @@
-## 🚀 India GDP Growth Forecast (2025–2026)
+## 🚀 India GDP Growth Forecast
 
 _A macroeconomic outlook with risks and opportunities_
 
@@ -23,7 +23,7 @@ This indicates a stable growth for the economy. However, whether sustaining this
 > [!IMPORTANT]
 > **In short**: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on *reforms and revival*.
 
-## 📊 India’s Path to a $5 Trillion Economy
+## 📊 Path to $5 Trillion Economy
 
 <img width="907" height="360" alt="newplot" src="https://github.com/user-attachments/assets/dbd31417-94cd-4ac5-a237-82bbd3891bbb" />
 
