@@ -31,9 +31,6 @@ This indicates a stable growth for the economy. However, whether sustaining this
 
 India is expected to touch the most awaited $5 trillion GDP (at current prices) by 2028. This growth is backed by the country's economic resilience to sustain it. Get full [forecasted GDP data here](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data/Forecast%20Data). 
 
-> [!IMPORTANT]
-> **In short**: The $5 trillion mark is within reach, but the *quality of growth* — inclusive, sustainable, and reform-driven — will define India’s long-term trajectory.
-
 ---
 
 ## 🧠 Methodology and Data
