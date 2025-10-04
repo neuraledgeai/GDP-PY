@@ -1,6 +1,6 @@
 ## 🚀 India GDP Growth Forecast
 
-_A macroeconomic outlook with risks and opportunities_
+A *quick* macroeconomic outlook with risks and opportunities
 
 - India's GDP to grow **6.93% in 2025**.
 - And **6.92% in 2026**.
@@ -50,6 +50,13 @@ All the data, including the training dataset, can be accessed from this [directo
 ## 🙌 Support
 
 If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all. If you further require to inform me something, please write at anoop_kumar_u@icloud.com 
+
+---
+
+**Data Source Attribution:**  
+GDP data for India is sourced from the [World Bank Open Data](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN),  
+© World Bank, licensed under [CC BY-4.0](https://creativecommons.org/licenses/by/4.0/).  
+
 
 
 [^1]: https://www.thehindubusinessline.com/opinion/liquidity-trap-poses-policy-challenge/article70094512.ece
