@@ -1,5 +1,5 @@
 ## 🚀 GDP-PY
-GDP-PY is an open-sourced project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
+GDP-PY is an open-source project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
 
 ---
 
@@ -29,17 +29,7 @@ This indicates a stable growth for the economy. However, whether sustaining this
 
 <img width="907" height="360" alt="newplot" src="https://github.com/user-attachments/assets/dbd31417-94cd-4ac5-a237-82bbd3891bbb" />
 
-India is expected to touch the most awaited $5 trillion GDP (at current prices) by 2028. This growth is backed by the country's economic resilience to sustain it. 
-
-**Table 2: Forecasted GDP of India (Trillion USD)**
-
-| Year | GDP Forecast (Trillion USD) |
-|------|------------------------------|
-| 2025 | 4.18 |
-| 2026 | 4.47 |
-| 2027 | 4.78 |
-| **2028** | **5.11 ⭐️** |
-| 2029 | 5.47 |
+India is expected to touch the most awaited $5 trillion GDP (at current prices) by 2028. This growth is backed by the country's economic resilience to sustain it. Get full [forecasted GDP data here](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data/Forecast%20Data). 
 
 > [!IMPORTANT]
 > **In short**: The $5 trillion mark is within reach, but the *quality of growth* — inclusive, sustainable, and reform-driven — will define India’s long-term trajectory.
