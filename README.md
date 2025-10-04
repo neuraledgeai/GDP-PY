@@ -1,17 +1,14 @@
-## 🚀 India GDP Growth Forecast
+GDP-PY is an open-sourced project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
 
-A *quick* macroeconomic outlook with risks and opportunities
+**GDP Growth Forecast**
 
 - India's GDP to grow **6.93% in 2025**.
 - And **6.92% in 2026**.
 
-> [!NOTE]
-> Forecasts are based on GDP-PY projections at current USD.
-
 **Table 1: Forecasted Annual GDP Growth (%)**
 
-| Year | Growth Rate |
-|------|-------------|
+| Year | Growth Rate Forecast|
+|------|---------------------|
 | 2025 | 6.93% |
 | 2026 | 6.92% |
 
@@ -22,6 +19,8 @@ This indicates a stable growth for the economy. However, whether sustaining this
 
 > [!IMPORTANT]
 > **In short**: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on *reforms and revival*.
+
+---
 
 ## 📊 Path to $5 Trillion Economy
 
@@ -42,10 +41,14 @@ India is expected to touch the most awaited $5 trillion GDP (at current prices) 
 > [!IMPORTANT]
 > **In short**: The $5 trillion mark is within reach, but the *quality of growth* — inclusive, sustainable, and reform-driven — will define India’s long-term trajectory.
 
+---
+
 ## 🧠 Methodology and Data
 
 You can get a quick view of the methodology and ML workflow [here](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp_current_usd_india_forecast.ipynb).  
 All the data, including the training dataset, can be accessed from this [directory](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data).  
+
+---
 
 ## 🙌 Support
 
