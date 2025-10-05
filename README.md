@@ -7,17 +7,13 @@ Licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/)
 
 ## ⛅️ GDP Growth Forecast
 
-**Table 1: Forecasted Annual GDP Growth (%)**
+**Table 1: Overview of Forecasted Annual GDP Growth (%)**
 
-| Year | Growth Rate Forecast|
-|------|---------------------|
-| 2025 | 6.93% |
-| 2026 | 6.92% |
+| Country | 2025 Forecast | 2026 Forecast |
+|---------|---------------|---------------|
+| India   | 6.93%         | 6.92%         |
 
-India's GDP to grow **6.93% in 2025** and **6.92% in 2026**. This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Key challenges include lowering domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
-
-> [!IMPORTANT]
-> **In short**: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on *reforms and revival*.
+India's GDP to grow **6.93% in 2025** and **6.92% in 2026**. This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Lowering domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
 
 ---
 
