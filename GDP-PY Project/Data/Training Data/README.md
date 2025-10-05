@@ -1,6 +1,6 @@
 # 🧾 Metadata: `training_data.csv`
 
-**File Name:** `training_data.csv`  
+**File Name:** [`training_data.csv`](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/Training%20Data/training_data.csv)  
 **License:** [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)  
 **Source:** World Bank Open Data (GDP, current US$)  
 **Last Updated:** October 2025  
