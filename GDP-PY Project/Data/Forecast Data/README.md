@@ -2,8 +2,7 @@
 
 **File Name:** `forecast_data.csv`  
 **License:** [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)  
-**Source:** Derived from World Bank GDP (current USD) data — forecasted using GDP-PY model  
-**Maintainer:** Anoop Kumar U | anoop_kumar_u@icloud.com      
+**Source:** Derived from World Bank GDP (current USD) data — forecasted using GDP-PY model     
 **Last Updated:** October 2025  
 
 ---
@@ -46,14 +45,6 @@ The projections indicate India’s steady economic momentum, crossing the **$5 t
 - **Currency:** USD (current prices, not adjusted for inflation)  
 - **Computation:** Forecasts generated via regression on GDP growth rate trends with smoothing for post-pandemic volatility.  
 - **Validation:** Cross-checked against IMF World Economic Outlook mid-2025 estimates.
-
----
-
-## 🧭 Citation
-
-If you use this dataset, please cite as:
-
-> Kumar, A. U. (2025). *India GDP Forecast Dataset (2025–2029)*. Derived from World Bank Open Data. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
