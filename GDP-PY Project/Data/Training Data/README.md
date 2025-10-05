@@ -3,7 +3,6 @@
 **File Name:** `training_data.csv`  
 **License:** [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)  
 **Source:** World Bank Open Data (GDP, current US$)  
-**Maintainer:** Anoop Kumar U | anoop_kumar_u@icloud.com  
 **Last Updated:** October 2025  
 
 ---
@@ -56,14 +55,6 @@ This dataset forms the foundation for model training, enabling the projection of
 
 - **Usage:**  
   This dataset was used to train the **GDP-PY model**, which predicts future GDP based on historical growth patterns and lagged relationships.
-
----
-
-## 🧭 Citation
-
-If you use this dataset, please cite as:
-
-> Kumar, A.U. (2025). *India GDP Historical Training Dataset (1961–2024)*. Derived from World Bank Open Data. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
