@@ -1,6 +1,6 @@
 # 🧾 Metadata: `forecast_data.csv`
 
-**File Name:** `forecast_data.csv`  
+**File Name:** [`forecast_data.csv`](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/Forecast%20Data/forecast_data.csv)  
 **License:** [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)  
 **Source:** Derived from World Bank GDP (current USD) data — forecasted using GDP-PY model     
 **Last Updated:** October 2025  
