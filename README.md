@@ -1,12 +1,11 @@
 ## 🚀 GDP-PY
 GDP-PY is an open-source project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
 
+Licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/)
+
 ---
 
 ## ⛅️ GDP Growth Forecast
-
-- India's GDP to grow **6.93% in 2025**.
-- And **6.92% in 2026**.
 
 **Table 1: Forecasted Annual GDP Growth (%)**
 
@@ -15,17 +14,14 @@ GDP-PY is an open-source project that forecasts India's Gross Domestic Product a
 | 2025 | 6.93% |
 | 2026 | 6.92% |
 
-This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Key challenges include:
-- lowering domestic demand (including credit demand),
-- pessimistic expectations,
-- and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
+India's GDP to grow **6.93% in 2025** and **6.92% in 2026**. This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Key challenges include lowering domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
 
 > [!IMPORTANT]
 > **In short**: India’s economy is set for high growth in the near term, but the post-2027 landscape will greatly depend on *reforms and revival*.
 
 ---
 
-## 📊 Path to $5 Trillion Economy
+## 📊 $5 Trillion Economy
 
 <img width="907" height="360" alt="newplot" src="https://github.com/user-attachments/assets/dbd31417-94cd-4ac5-a237-82bbd3891bbb" />
 
