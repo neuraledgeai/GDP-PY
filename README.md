@@ -43,8 +43,8 @@ If you love this project or found it helpful, please support it by giving a star
 ---
 
 **Data Source Attribution:**  
-GDP data for India is sourced from the [World Bank Open Data](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN),  
-© World Bank, licensed under [CC BY-4.0](https://creativecommons.org/licenses/by/4.0/).  
+GDP data for India is sourced from the [World Bank Open Data↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN),  
+© World Bank, licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/).  
 
 
 
