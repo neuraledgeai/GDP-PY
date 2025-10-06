@@ -34,7 +34,8 @@ This dataset forms the foundation for model training, enabling the projection of
   3. Created a lagged feature `GDP_L1` by shifting the GDP series by one year.  
   4. Dropped missing records after lag creation.  
 
-- **Usage:**  
+- **Usage:**
+
   This dataset was used to train the **GDP-PY model**, which predicts future GDP based on historical growth patterns and lagged relationships.
 
 ---
