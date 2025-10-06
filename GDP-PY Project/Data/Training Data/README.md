@@ -26,29 +26,10 @@ This dataset forms the foundation for model training, enabling the projection of
 
 ---
 
-## 📊 Sample Data
-
-| Date | GDP (USD) | GDP_L1 (USD) |
-|------|------------|--------------|
-| 1961-01-01 | 39,232,435,784 | 37,029,883,876 |
-| 1962-01-01 | 42,161,481,858 | 39,232,435,784 |
-| 1963-01-01 | 48,421,923,459 | 42,161,481,858 |
-| 1964-01-01 | 56,480,289,940 | 48,421,923,459 |
-| 1965-01-01 | 59,556,105,229 | 56,480,289,940 |
-| ... | ... | ... |
-| 2024-01-01 | 3,912,686,168,582 | 3,638,489,096,033 |
-
-*(Values rounded for readability)*
-
----
-
 ## ⚙️ Methodology Overview
 
-- **Source Data:**  
-  [World Bank GDP (current US$)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)
-
-- **Processing Steps:**  
-  1. Imported World Bank GDP data (CSV).  
+- **How the data was produced?:**  
+  1. Imported [World Bank GDP data (CSV](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/GDP%20Data%20(World%20Bank)/gdp_current_usd_india.csv).  
   2. Converted `Date` column to datetime format.  
   3. Created a lagged feature `GDP_L1` by shifting the GDP series by one year.  
   4. Dropped missing records after lag creation.  
