@@ -24,27 +24,19 @@ The projections indicate India’s steady economic momentum, crossing the **$5 t
 
 ---
 
-## 📊 Sample Data
-
-| Date | Forecast_GDP (USD) |
-|------|--------------------|
-| 2025-01-01 | 4,184,125,110,813 |
-| 2026-01-01 | 4,473,873,813,159 |
-| 2027-01-01 | 4,783,167,350,117 |
-| 2028-01-01 | 5,113,324,107,439 |
-| 2029-01-01 | 5,465,751,401,836 |
-
-*(Values rounded for readability)*
-
----
-
 ## ⚙️ Methodology Overview
 
-- **Model:** GDP-PY (Polynomial Yield-based Model)  
-- **Data Basis:** Historical GDP data (World Bank, 1960–2023)  
-- **Currency:** USD (current prices, not adjusted for inflation)  
-- **Computation:** Forecasts generated via regression on GDP growth rate trends with smoothing for post-pandemic volatility.  
-- **Validation:** Cross-checked against IMF World Economic Outlook mid-2025 estimates.
+- **How the data was produced?:**  
+  1. Imported the [World Bank GDP data (CSV)](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/GDP%20Data%20(World%20Bank)/gdp_current_usd_india.csv).
+  2. Prepared the [training data](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data/Training%20Data)
+  3. The GDP-PY forcasting model was trained.
+  4. Used the last known GDP value for 2024 as the starting point (`3.91 trillion USD`).
+  5. Predicted GDP recursively for the next 5 years (2025–2029)
+  6. Compiled results into a DataFrame and exported as [`forecast_data.csv`](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/Forecast%20Data/forecast_data.csv).
+
+- **Usage:**  
+
+  The [`forecast_data.csv`](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/Forecast%20Data/forecast_data.csv) file can be used for visualizing India’s GDP growth trends (2025–2029), building dashboards or economic models, and analysing GDP trend.
 
 ---
 
