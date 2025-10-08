@@ -1,4 +1,4 @@
-# 📑 Metadata: Data Source Information  
+# 📑 Metadata: Source Data Information  
 
 This project uses [GDP data for India](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/GDP%20Data%20(World%20Bank)/gdp_current_usd_india.csv) sourced from the **World Bank Open Data platform**. The details are provided below for transparency and proper attribution.  
 
