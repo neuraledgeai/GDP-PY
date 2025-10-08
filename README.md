@@ -1,5 +1,5 @@
 ## 🚀 GDP-PY
-GDP-PY is an open-source project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
+[GDP-PY](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/README.md) is an open-source project that forecasts India's Gross Domestic Product at current USD and its $5 trillion milestone. It provides a *quick* macroeconomic outlook with risks and opportunities. Latest forecasts (2025-26) are given below:
 
 Licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/)
 
