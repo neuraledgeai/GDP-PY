@@ -41,5 +41,5 @@ This dataset forms the foundation for model training, enabling the projection of
 ---
 
 **Source Data Attribution:**  
-World Bank Open Data — [GDP (current US$)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
-© The World Bank | Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+World Bank Open Data — [GDP (current US$)↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
+© The World Bank | Licensed under [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)
