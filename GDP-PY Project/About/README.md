@@ -45,14 +45,14 @@ Special thanks to:
 - [WorldQuant University](https://www.wqu.edu/)   
 - [World Bank Institute for Economic Development](https://www.wbginstitute.org)  
 
-Their commitment to **giving an opprtunity innovate** made this project possible.  
+Their commitment to **giving everyone an opprtunity innovate** made this project possible.  
 
 ---
 
 ## ⚖️ License
 
 © 2025 **NeuralEdge AI**  
-Released under the **[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.  
+Released under the **[CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)**.  
 You are free to share, adapt, and build upon this work — with appropriate attribution.
 
 ---
