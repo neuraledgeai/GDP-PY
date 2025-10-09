@@ -1,6 +1,6 @@
 # 📘 GDP-PY Project Notebook
 
-**File Name:** `gdp_current_usd_india_forecast.ipynb`  
+**File Name:** [`gdp-py_project_notebook.ipynb`](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp-py_project_notebook.ipynb)  
 **License:** [CC BY 4.0 ↗](https://creativecommons.org/licenses/by/4.0/)  
 **Last Updated:** October 2025  
 
@@ -25,13 +25,13 @@ It is structured into three main sections:
 
 ---
 
-## 📊 Data Source
+## 📊 Data Sources
 
-**World Bank Open Data Portal** — [GDP (current US$) for India (1960–2024)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN).  
+**World Bank Open Data Portal** — [GDP (current US$) for India (1960–2024)↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN) (source data).  
 All datasets used in this notebook are [openly available](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data) for **review and reuse**.
 
 ---
 
 ## ⚖️ Notebook License
 
-© 2025 **NeuralEdge AI** — Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+© 2025 **NeuralEdge AI** — Released under [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/).
