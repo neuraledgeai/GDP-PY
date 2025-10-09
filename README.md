@@ -32,6 +32,17 @@ All the data, including the training dataset, can be accessed from this [directo
 
 ---
 
+## 🤝 Contribute
+
+I welcome your ideas, suggestions, and collaborations to make GDP-PY better.  
+If you have thoughts on how to enhance forecasts, improve visualizations, or explore new insights — I’d love to hear from you.  
+
+👉 [Share your ideas here](https://tally.so/r/n0NyZA)
+
+All contributions are valuable, and notable ideas may be credited in future versions of the project.
+
+---
+
 ## 🙌 Support
 
 If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all. If you further require to inform me something, please write at anoop_kumar_u@icloud.com 
