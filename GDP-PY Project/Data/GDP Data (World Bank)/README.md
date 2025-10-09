@@ -1,4 +1,4 @@
-# 📑 Metadata: Source Data Information  
+# 📑 Source Data Information  
 
 This project uses [GDP data for India](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Data/GDP%20Data%20(World%20Bank)/gdp_current_usd_india.csv) sourced from the **World Bank Open Data platform**. The details are provided below for transparency and proper attribution.  
 
@@ -6,7 +6,7 @@ This project uses [GDP data for India](https://github.com/neuraledgeai/GDP-PY/bl
 
 ## 🌍 Data Source  
 
-- **Title:** [GDP (current US$) – India](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
+- **Title:** [GDP (current US$) – India↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
 - **ID:** NY.GDP.MKTP.CD  
 - **Dataset:** World Development Indicators (WDI)  
 - **Periodicity:** Annual  
@@ -32,7 +32,7 @@ This indicator is expressed in **current prices**, meaning **no adjustment is ma
 
 - **Primary Source:** Country official statistics, National Statistical Organizations, and/or Central Banks  
 - **Secondary Sources:** OECD; World Bank staff estimates  
-- **License:** [Creative Commons Attribution 4.0 (CC BY-4.0)](https://creativecommons.org/licenses/by/4.0/)  
+- **License:** [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/)  
 - **Aggregation Method:** Gap-filled total  
 
 ---
@@ -58,10 +58,10 @@ This indicator is expressed in **current prices**, meaning **no adjustment is ma
 ## 📘 Methodology  
 
 - National accounts are compiled in line with **System of National Accounts (SNA)** — 2008 or 1993 versions.  
-- Additional methodology details are available via the [IMF Data Standards Bulletin Board (DSBB)](https://dsbb.imf.org).  
+- Additional methodology details are available via the [IMF Data Standards Bulletin Board (DSBB)↗](https://dsbb.imf.org).  
 
 ---
 
 ✍️ *Prepared as part of the GDP-PY Project to ensure transparency and data integrity.*  
 
-**Attribution:** Data © [World Bank](https://data.worldbank.org/), Licensed under [CC BY-4.0](https://creativecommons.org/licenses/by/4.0/).  
+**Attribution:** Data © [World Bank↗](https://data.worldbank.org/), Licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/).  
