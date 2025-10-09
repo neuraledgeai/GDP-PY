@@ -40,6 +40,6 @@ The projections indicate India’s steady economic momentum, crossing the **$5 t
 
 ---
 
-**Attribution:**  
-World Bank Open Data — [GDP (current US$)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
-© The World Bank | Licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+**Source Data Attribution:**  
+World Bank Open Data — [GDP (current US$)↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
+© The World Bank | Licensed under [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/)
