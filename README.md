@@ -49,9 +49,13 @@ If you love this project or found it helpful, please support it by giving a star
 
 ---
 
-**Data Source Attribution:**  
-GDP data for India is sourced from the [World Bank Open Data↗](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN),  
-© World Bank, licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/).  
+## ⚖️ License and Use
+
+© 2025 NeuralEdge AI — GDP-PY Project.  
+Released under the [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share, adapt, and build upon this work — provided that appropriate credit is given.  
+All visualizations, forecasts, and results are for **research and analytical purposes only**.
 
 
 
