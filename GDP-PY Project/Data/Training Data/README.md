@@ -9,7 +9,7 @@
 
 ## 📘 Description
 
-This dataset contains **historical GDP data for India (1961–2024)**, used for training the **GDP-PY forecasting model**.  
+This dataset contains **historical GDP data for India (1961–2024)**, used for training the [GDP-PY forecasting model](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Model).  
 Each record represents India's GDP at *current prices (USD)*, along with a **lagged feature (`GDP_L1`)** that stores the GDP value from the previous year.  
 
 This dataset forms the foundation for model training, enabling the projection of GDP growth up to 2029.
@@ -36,10 +36,10 @@ This dataset forms the foundation for model training, enabling the projection of
 
 - **Usage:**
 
-  This dataset was used to train the **GDP-PY model**, which predicts future GDP based on historical growth patterns and lagged relationships.
+  This dataset was used to train the [GDP-PY model](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Model), which predicts future GDP based on historical growth patterns and lagged relationships.
 
 ---
 
-**Attribution:**  
+**Source Data Attribution:**  
 World Bank Open Data — [GDP (current US$)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN)  
-© The World Bank | Licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+© The World Bank | Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
