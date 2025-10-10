@@ -32,31 +32,25 @@ All the data, including the training dataset, can be accessed from this [directo
 
 ---
 
-## 🤝 Contribute
+## 🌟 Contribute
 
-I welcome your ideas, suggestions, and collaborations to make GDP-PY better.  
-If you have thoughts on how to enhance forecasts, improve visualizations, or explore new insights — I’d love to hear from you.  
+Your ideas and suggestions to improve GDP-PY are welcome. I’d love to hear from you.    
+All contributions are valuable.
 
-👉 [Share your ideas here](https://tally.so/r/n0NyZA)
-
-All contributions are valuable, and notable ideas may be credited in future versions of the project.
+👉 [Contribute.](https://tally.so/r/n0NyZA)
 
 ---
 
 ## 🙌 Support
 
-If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all. If you further require to inform me something, please write at anoop_kumar_u@icloud.com 
+If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all. If you further require to inform me something, please write at anoop_kumar_u@icloud.com. 
 
 ---
 
-## ⚖️ License and Use
+**License and Use**
 
 © 2025 NeuralEdge AI — GDP-PY Project.  
 Released under the [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/).
-
-You are free to share, adapt, and build upon this work — provided that appropriate credit is given.  
-All visualizations, forecasts, and results are for **research and analytical purposes only**.
-
 
 
 [^1]: https://www.thehindubusinessline.com/opinion/liquidity-trap-poses-policy-challenge/article70094512.ece
