@@ -27,7 +27,7 @@ India is expected to touch the most awaited $5 trillion GDP (at current prices) 
 
 ## 🧠 Methodology and Data
 
-You can get a quick view of the methodology and ML workflow [here](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp_current_usd_india_forecast.ipynb).  
+You can get a quick view of the methodology and ML workflow [here](https://github.com/neuraledgeai/GDP-PY/blob/main/GDP-PY%20Project/Notebook/gdp-py_project_notebook.ipynb).  
 All the data, including the training dataset, can be accessed from this [directory](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data).  
 
 ---
