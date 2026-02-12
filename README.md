@@ -25,8 +25,7 @@ All the data, including the training dataset, can be accessed from this [directo
 
 ## 🌟 Contribute
 
-Your ideas and suggestions to improve GDP-PY are welcome. I’d love to hear from you.    
-All contributions are valuable.
+Your ideas and suggestions to improve GDP-PY are welcome. All contributions are valuable.
 
 👉 [Contribute.](https://tally.so/r/n0NyZA)
 
