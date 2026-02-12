@@ -1,4 +1,4 @@
-## 🚀 GDP-PY: India GDP Forecasting Model
+## 🚀 GDP-PY Forecast
 
 |  🇮🇳India's GDP Outlook for 2025 | 
 |---------------|
