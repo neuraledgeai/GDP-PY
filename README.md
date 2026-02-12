@@ -1,4 +1,4 @@
-## 🚀 GDP-PY: India GDP Forecasting Model
+# 🚀 GDP-PY: India GDP Forecasting Model
 
 |  🇮🇳India's GDP Outlook for 2025 | 
 |---------------|
@@ -7,13 +7,12 @@ GDP-PY's forecasting model has predicted that India's GDP will touch **4.18 tril
 
 This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Diminishing domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
 
+<img width="922" height="360" alt="gdp" src="https://github.com/user-attachments/assets/6bd69554-3e9f-45b6-af5c-a9676a496663" />
+
 ---
 
-## 📊 $5 Trillion Economy
-
-<img width="907" height="360" alt="newplot" src="https://github.com/user-attachments/assets/dbd31417-94cd-4ac5-a237-82bbd3891bbb" />
-
-India is expected to touch the most awaited $5 trillion GDP (at current prices) by 2028. This growth is backed by the country's economic resilience to sustain it. Get full [forecasted GDP data here](https://github.com/neuraledgeai/GDP-PY/tree/main/GDP-PY%20Project/Data/Forecast%20Data). 
+## 📈 How Accurate Were Past Predictions?
+<img width="922" height="360" alt="forcast" src="https://github.com/user-attachments/assets/57363fec-db1f-49ed-a8c8-70d22a1ddd70" />
 
 ---
 
