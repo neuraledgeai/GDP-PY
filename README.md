@@ -1,3 +1,5 @@
+**🚀 GDP-PY: India GDP Forecasting Model**
+
 |  🇮🇳India's GDP Outlook for 2025 | 
 |---------------|
 | Projected Growth Rate: 6.93%         | 
