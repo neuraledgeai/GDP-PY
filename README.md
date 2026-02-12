@@ -5,7 +5,7 @@
 | Projected Growth Rate: 6.93%         | 
 GDP-PY's forecasting model has predicted that India's GDP will touch **4.18 trillion USD at current prices by 2025**, potentially surpassing Japan's. Because no forecast is perfectly exact, a likely range is also calculated. There is about a **95 percent chance that India’s actual GDP in 2025 will be between approximately 4.01 trillion and 4.35 trillion USD**.
 
-This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Lowering domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
+This indicates a stable growth for the economy. However, whether sustaining this momentum beyond 2027 is a question. Diminishing domestic demand (including credit demand), pessimistic expectations, and the current situation of the Indian economy nearing a liquidity trap pose setbacks[^1].
 
 ---
 
