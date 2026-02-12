@@ -1,4 +1,4 @@
-**🚀 GDP-PY: India GDP Forecasting Model**
+## 🚀 GDP-PY: India GDP Forecasting Model
 
 |  🇮🇳India's GDP Outlook for 2025 | 
 |---------------|
@@ -11,7 +11,7 @@ This indicates a stable growth for the economy. However, whether sustaining this
 
 ---
 
-### 📈 How Accurate Were Past Predictions?
+## 📈 How Accurate Were Past Predictions?
 <img width="922" height="360" alt="forcast" src="https://github.com/user-attachments/assets/57363fec-db1f-49ed-a8c8-70d22a1ddd70" />
 
 ---
@@ -41,13 +41,13 @@ Licensed under [CC BY-4.0↗](https://creativecommons.org/licenses/by/4.0/)
 
 ## 🙌 Support
 
-If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all. If you further require to inform something, please write to Anoop Kumar U (Cheif Data Scientist at Neural Edge AI) at anoop_kumar_u@icloud.com. 
+If you love this project or found it helpful, please support it by giving a star ⭐️ for this repository. That’s all 🙌🏼. 
+
+If you further require to inform something or contibute, please write to Anoop Kumar U (Cheif Data Scientist at Neural Edge AI) at anoop_kumar_u@icloud.com. 
 
 ---
 
 **License and Use**
-
-# 🚀 GDP-PY: India GDP Forecasting Model
 
 © 2025 NeuralEdge AI — GDP-PY Project.  
 Released under the [CC BY 4.0↗](https://creativecommons.org/licenses/by/4.0/).
